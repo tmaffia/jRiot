@@ -36,7 +36,7 @@ public enum Region {
     }
 
     public String getBaseUrl() {
-        return getBaseUrl(true);
+        return getBaseUrl(false);
     }
 
     public String getName() {
