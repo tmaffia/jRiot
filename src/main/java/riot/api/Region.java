@@ -7,6 +7,7 @@ public enum Region {
     BR("br.api.pvp.net", "br"),
     EUNE("eune.api.pvp.net", "eune"),
     EUW("euw.api.pvp.net", "euw"),
+    GLOBAL("global.api.pvp.net", "global"),
     KR("kr.api.pvp.net", "kr"),
     LAS("las.api.pvp.net", "las"),
     LAN("lan.api.pvp.net", "lan"),
@@ -14,8 +15,7 @@ public enum Region {
     OCE("oce.api.pvp.net", "oce"),
     PBE("pbe.api.pvp.net", "pbe"),
     RU("ru.api.pvp.net", "ru"),
-    TR("tr.api.pvp.net", "tr"),
-    GLOBAL("global.api.pvp.net", "global");
+    TR("tr.api.pvp.net", "tr");
 
 
     private String baseUrl;
