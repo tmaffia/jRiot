@@ -1,5 +1,11 @@
 package riot.api;
 
+import riot.api.summoner.Summoner;
+import riot.api.summoner.SummonerRequest;
+
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by tmaffia on 2/17/16.
  */
@@ -25,5 +31,9 @@ public class RiotApi {
 
     public Region getApiRegion() {
         return apiRegion;
+    }
+
+    public Map<String, Summoner> getSummonerByName(Region region, String... summonerNames) {
+        return new HashMap<String, Summoner>();
     }
 }
